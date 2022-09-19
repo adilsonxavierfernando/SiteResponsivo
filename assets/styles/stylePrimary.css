@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Josefin Sans';
+}
+
+a{
+    text-decoration: none;
+    /*color: white;*/
+}
+
+header{
+    box-shadow: 2px 2px 12px rgba(3, 143, 250, 0.148);
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+   top: 0;
+    
+}
+.menu_navegacao{
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 1.3rem 2rem; */
+    width: 100%;
+    padding: 1rem;;
+  
+   
+}
+
+.menu_itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.menu_itens li{
+    list-style: none;
+}
+.menu_itens a{
+    color: rgb(57, 126, 211);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.menu_itens a:hover{
+    background-color: rgb(57, 126, 211);
+    color: white;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.091);
+    transition: all .3s;
+    
+}
+.logotipo{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Josefin Sans';
+}
+header h1{
+    text-align: center;
+    padding: 2rem;
+}
+#contacto a{
+    background-color: rgb(57, 126, 211);
+    color: white;
+  
+    padding: 1rem;
+    border-radius: 15px;
+}
+/* principal */
+main{
+  
+    width: 80%;
+    margin: 18% auto;
+    
+}
+footer{
+    background-color: rgb(57, 126, 211);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.service section{
+    display: flex;
+    justify-content: space-between;
+    flex: 3;
+    flex-wrap: wrap;
+    
+}
+.service>section>article{
+    margin: 1rem;
+    width: 45%;
+    border-bottom: 1px solid rgba(244, 156, 5, 0.224);
+}
+.service>section>article h4{
+color: rgb(255, 64, 0);
+margin: 1rem;
+}
+
+.service>section>article p{
+    margin: 2rem;
+   
+}
+.cursos section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cursos>section>article{
+   
+    width: 50%;
+    margin: 2rem 0.2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    color: rgb(73, 121, 241);
+    /* background-color: rgb(73, 121, 241); */
+    box-shadow: 2px 2px 15px rgba(3, 143, 250, 0.2);
+box-sizing: border-box;
+}
+
+.cursos>section>article:hover{
+background-color: rgb(30, 100, 221);
+color: white;
+transition: all 0.5s;
+}
+.cursos>section>article>p{
+    text-align: justify;
+    text-indent: 2rem;
+    
+}
+.cursos>section>article>h3{
+    padding: 0.3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(30, 100, 221);
+    color: rgb(30, 100, 221);
+
+
+}
+
+/* publicidade */
+
+.publicidade{
+    background-image: url('http://marcusmarques.com.br/wp-content/uploads/2019/02/marketing-de-servicos.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+.publicidade section{
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    
+}
+.circle{
+    width: 28rem;
+    height: 28rem;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.824);
+    border: 8px solid rgba(248, 194, 0, 0.593);
+}
+.tituloPublicidade h1{
+    align-self: center;
+    color: rgb(255, 191, 0);
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 2px 15px rgba(7, 6, 2, 0.375);
+
+}
+.tituloPublicidade p,.tituloPublicidade h2{
+    margin-top: 1rem;
+    text-align: center;
+}
+button{
+    border: none;
+    padding: 0.5rem;
+    width: 100px;
+    border-radius: 1rem;
+    margin: 1rem 2rem 1rem 1rem;
+    background-color: rgb(28, 111, 206);
+    color: white;
+    float: right;
+}
+
+button::after{
+    content: ' >';
+}

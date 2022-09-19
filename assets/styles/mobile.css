@@ -1,0 +1,111 @@
+@media screen and (max-width:768px){
+
+    /* estilização do menu */
+    body{
+        width: 100% !important;
+    }
+    header{
+        width: 100% !important;
+        position: relative !important;
+    }
+    main{
+        width: 100% !important;
+    }
+    .menu_navegacao{
+        width: 100% !important;
+        display: none !important;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        justify-content: space-between;
+        /* margin: 1.3rem 2rem; */
+        width: 100%;
+        padding: 1rem;
+        margin: 0 !important;
+  
+      
+       
+    }
+    .menu_itens{
+        display: flex;
+        width: 100% !important;
+        align-items: center !important;
+        flex-direction: column !important;
+        text-align: center;
+        }
+    .circle{
+        margin: 0 !important;
+        width: 0% !important;
+        height: 0% !important;
+        border-radius: 0% !important;
+        border: none !important;
+    }
+
+    #contacto {
+        width: 100% !important;
+        text-align: center !important;
+        
+        margin-top: 1rem;
+    }
+    #contacto a{
+        padding: 1rem;
+        color: green !important;
+        font-weight: 700;
+        font-size: 17pt;
+        background: none !important;
+    }
+    #contacto a:hover{
+        background-color: green !important;
+        color: white !important;
+    }
+
+    .publicidade{
+        display: none;
+        background:white !important;
+        height: 100%;
+        width: 100% !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 1rem;
+        padding: 2rem;
+    }
+    .tituloPublicidade h1{
+        align-self: center;
+        color: rgb(255, 191, 0);
+        font-size: 3rem !important;
+        text-align: center;
+        text-shadow: 2px 2px 12px rgba(7, 6, 2, 0.375);
+        margin: 0 !important;
+    
+    }
+
+    .cursos section{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+    }
+    .cursos>section>article{
+        width: 100% !important;
+    }
+
+    .service section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 3;
+        flex-wrap: wrap;
+        
+    }
+
+    .service section article{
+        width: 100% !important;
+    }
+    .service section article p{
+        text-align: center;
+        width: 100% !important;
+    }
+    footer{
+        width: 100% !important;
+    }
+}
